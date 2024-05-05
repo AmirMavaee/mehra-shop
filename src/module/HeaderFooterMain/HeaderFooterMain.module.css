@@ -1,0 +1,22 @@
+.active{
+    background-color: #d9ddcb;
+}
+
+.arrow_mobile{
+    display: none;
+}
+
+.arrow_desktop{
+    display: block;
+}
+
+@media (max-width : 575px) {
+    .arrow_mobile{
+        display: block;
+    }
+    
+    .arrow_desktop{
+        display: none;
+    }
+    
+}

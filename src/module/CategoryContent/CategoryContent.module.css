@@ -1,0 +1,37 @@
+a{
+    width: 50%;
+}
+
+.CategoryContentContainer{
+    background-color: #e9eee0;
+    /* padding: 3rem; */
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CategoryContentContainer h3{
+    margin: 0;
+}
+
+.greenBorder{
+    border:2px solid #a6e100;
+}
+
+.transparentBorder{
+    border: 2px solid #626754;
+}
+
+.greenText{
+    color: #80ad01;
+}
+
+@media (max-width : 575px) {
+    .CategoryContentContainer{
+        width: 140px;
+        height: 140px;
+    }
+}

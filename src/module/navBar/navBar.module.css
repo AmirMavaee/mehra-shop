@@ -1,0 +1,28 @@
+.navbarContainer{
+    background-color: #e5e5e5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 2px solid #fff;
+    width: 100%;
+}
+
+.navbarContainer > ul {
+    display: flex;
+}
+
+.navbarContainer > ul > li{
+    flex-grow: 1;
+    text-align: center;
+}
+.navbarContainer > ul > li a div{
+    margin-top: -15px;
+    font-size: 13px;
+}
+
+.greenColor{
+    color: #80ad01;
+}
+
+.grayColor{
+    color: #6b6b6b;
+}

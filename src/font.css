@@ -1,0 +1,20 @@
+@font-face {
+    font-family: IranSanse;
+    font-weight: 100;
+    src: url("./Fonts/IRANSansWeb.woff") format('woff');
+}
+@font-face {
+    font-family: IranSanse;
+    font-weight: 300;
+    src: url("./Fonts/IRANSansWeb_Light.woff") format('woff');
+}
+@font-face {
+    font-family: IranSanse;
+    font-weight: 500;
+    src: url("./Fonts/IRANSansWeb_Medium.woff") format('woff');
+}
+@font-face {
+    font-family: IranSanse;
+    font-weight: 900;
+    src: url("./Fonts/IRANSansWeb_Bold.woff") format('woff');
+}

@@ -1,0 +1,125 @@
+.categoryContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.categoryContent>div {
+    display: flex;
+    gap: 30px;
+}
+
+.categoryContent>div:nth-child(2) {
+    margin-top: 30px;
+}
+
+.categoryContent>a {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background-color: #80ad01;
+    color: #fff;
+    font-weight: 300;
+    padding: 15px 0px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.categoryContent>a img {
+    margin-right: 5px;
+}
+
+.categoryImage {
+    position: relative;
+}
+
+.categoryImage img:first-child {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.categoryImage img:nth-child(2),
+.categoryImage img:nth-child(3) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.categoryImage img:nth-child(2) {
+    right: -18px;
+    left: auto;
+}
+
+.categoryImage img:nth-child(3) {
+    left: -18px;
+    right: auto;
+}
+
+
+.categoryImage img:nth-child(4),
+.categoryImage img:nth-child(5),
+.categoryImage img:nth-child(6),
+.categoryImage img:nth-child(7) {
+    position: absolute;
+}
+
+.categoryImage img:nth-child(4) {
+    right: 49%;
+    top: 8%;
+}
+
+.categoryImage img:nth-child(5) {
+    right: 50%;
+    top: 50%;
+}
+
+.categoryImage img:nth-child(6) {
+    right: 32%;
+    top: 35%;
+}
+
+.categoryImage img:nth-child(7) {
+    right: 62%;
+    top: 68.5%;
+}
+
+@media (max-width : 1100px) {
+    .categoryContainer{
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media (max-width : 575px) {
+
+    .categoryContent {
+        margin-top: 2rem;
+    }
+
+    .categoryImage img:nth-child(2),
+    .categoryImage img:nth-child(3) {
+        top: 100%;
+    }
+
+    .categoryImage img:nth-child(2) {
+        right: 30px;
+        left: auto;
+    }
+
+    .categoryImage img:nth-child(3) {
+        left: 30px;
+        right: auto;
+    }
+
+    .categoryImage img:nth-child(4),
+    .categoryImage img:nth-child(5),
+    .categoryImage img:nth-child(6),
+    .categoryImage img:nth-child(7) {
+        width: 30px;
+    }
+
+}
