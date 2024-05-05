@@ -102,7 +102,7 @@
 
     .categoryImage img:nth-child(2),
     .categoryImage img:nth-child(3) {
-        top: 100%;
+        top: 97.5%;
     }
 
     .categoryImage img:nth-child(2) {
